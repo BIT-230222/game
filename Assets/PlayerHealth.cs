@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
@@ -13,10 +13,8 @@ public class EnemyHealth : MonoBehaviour
         if (healthPoint <= 0) return;
 
         healthPoint -= damage;
-        if (healthPoint <= 0) 
-        { Die(); }
+        if (healthPoint <= 0) Die();
     }
-
     protected virtual void Die()
     {
         var explosion = Instantiate(explosionPrefab, transform.position,

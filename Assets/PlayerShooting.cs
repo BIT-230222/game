@@ -31,4 +31,3 @@ public class PlayerShooting : MonoBehaviour
         var bullet = Instantiate(bulletPrefabs, transform.position + bulletOffset, transform.rotation);
     }
 }
-
