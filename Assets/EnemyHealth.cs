@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public static int LivingEnemyCount;
+
+    private void Awake() => LivingEnemyCount++;
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
     private int healthPoint;
@@ -19,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
 
     protected virtual void Die()
     {
+        LivingEnemyCount--;
         var explosion = Instantiate(explosionPrefab, transform.position,
         transform.rotation);
         Destroy(explosion, 1);

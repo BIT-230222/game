@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -5,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
     private int healthPoint;
+    internal Action onDead;
 
     private void Start() => healthPoint = defaultHealthPoint;
 

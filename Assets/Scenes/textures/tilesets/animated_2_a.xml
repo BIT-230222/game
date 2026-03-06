@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<tileset>
+  <textures delay="3">
+    <texture name="animated_2_a.png"/>
+    <texture name="animated_2_b.png"/>
+    <texture name="animated_2_c.png"/>
+    <texture name="animated_2_d.png"/>
+  </textures>
+</tileset>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+ <tileset>
+  <remapPoints>
+	<!-- basic purple ground -->	
+	<point x="0" y="1" width="1" height="2"/>
+	<point x="1" y="1" width="1" height="2"/>
+	<point x="2" y="1" width="1" height="2"/>
+	<point x="3" y="1" width="1" height="2"/>
+	<point x="4" y="1" width="1" height="2"/>
+	<point x="5" y="1" width="1" height="2"/>
+	<point x="6" y="1" width="1" height="2"/>
+	<point x="7" y="1" width="1" height="2"/>
+	<point x="8" y="1" width="1" height="2"/>
+	 <!-- basic purple ground decoration -->	
+  <point x="9" y="1" width="4" height="2"/>
+  <!-- basic green ground -->	
+	<point x="0" y="9" width="1" height="2"/>
+	<point x="1" y="9" width="1" height="2"/>
+	<point x="2" y="9" width="1" height="2"/>
+	<point x="3" y="9" width="1" height="2"/>
+	<point x="4" y="9" width="1" height="2"/>
+	<point x="5" y="9" width="1" height="2"/>
+	<point x="6" y="9" width="1" height="2"/>
+	<point x="7" y="9" width="1" height="2"/>
+	<point x="8" y="9" width="1" height="2"/>
+	 <!-- basic green ground decoration -->	
+  <point x="9" y="9" width="3" height="2"/>
+  	<!-- purple small brick -->	
+	<point x="17" y="1" width="2" height="2"/>
+	<point x="19" y="1" width="2" height="2"/>
+	<point x="21" y="1" width="2" height="2"/>
+	<point x="17" y="3" width="2" height="2"/>
+	<point x="19" y="3" width="2" height="2"/>
+	<point x="21" y="3" width="2" height="2"/>
+	<point x="17" y="5" width="2" height="2"/>
+	<point x="19" y="5" width="2" height="2"/>
+	<point x="21" y="5" width="2" height="2"/>
+	 <!-- purple small brick decoration -->	
+	   	<!-- purple big brick -->	
+	<point x="0" y="5" width="2" height="1"/>
+	<point x="3" y="5" width="2" height="1"/>
+	<point x="6" y="5" width="2" height="1"/>
+	<point x="0" y="6" width="2" height="1"/>
+	<point x="3" y="6" width="2" height="1"/>
+	<point x="6" y="6" width="2" height="1"/>
+	<point x="0" y="7" width="2" height="1"/>
+	<point x="3" y="7" width="2" height="1"/>
+	<point x="6" y="7" width="2" height="1"/>
+	 <!-- purple big brick decoration -->	
+  </remapPoints>
+  <backgroundTiles>
+	<!-- basic purple ground palette -->
+	<tile x="0" y="43" bx="0" by="1"/>
+	<tile x="1" y="43" bx="1" by="1"/>
+	<tile x="2" y="43" bx="8" by="1"/>
+	<tile x="0" y="44" bx="3" by="1"/>
+	<tile x="1" y="44" bx="4" by="1"/>
+	<tile x="2" y="44" bx="5" by="1"/>
+	<tile x="0" y="45" bx="2" by="1"/>
+	<tile x="1" y="45" bx="7" by="1"/>
+	<tile x="2" y="45" bx="6" by="1"/>
+  <!-- basic green ground palette -->
+	<tile x="4" y="43" bx="0" by="9"/>
+	<tile x="5" y="43" bx="1" by="9"/>
+	<tile x="6" y="43" bx="8" by="9"/>
+	<tile x="4" y="44" bx="3" by="9"/>
+	<tile x="5" y="44" bx="4" by="9"/>
+	<tile x="6" y="44" bx="5" by="9"/>
+	<tile x="4" y="45" bx="2" by="9"/>
+	<tile x="5" y="45" bx="7" by="9"/>
+	<tile x="6" y="45" bx="6" by="9"/>
+  <!-- purple small brick palette -->
+	<tile x="8" y="43" bx="17" by="1"/>
+	<tile x="9" y="43" bx="19" by="1"/>
+	<tile x="10" y="43" bx="21" by="1"/>
+	<tile x="8" y="44" bx="17" by="3"/>
+	<tile x="9" y="44" bx="19" by="3"/>
+	<tile x="10" y="44" bx="21" by="3"/>
+	<tile x="8" y="45" bx="17" by="5"/>
+	<tile x="9" y="45" bx="19" by="5"/>
+	<tile x="10" y="45" bx="21" by="5"/>
+  <!-- purple big brick palette -->
+	<tile x="12" y="43" bx="0" by="5"/>
+	<tile x="13" y="43" bx="3" by="5"/>
+	<tile x="14" y="43" bx="6" by="5"/>
+	<tile x="12" y="44" bx="0" by="6"/>
+	<tile x="13" y="44" bx="3" by="6"/>
+	<tile x="14" y="44" bx="6" by="6"/>
+	<tile x="12" y="45" bx="0" by="7"/>
+	<tile x="13" y="45" bx="3" by="7"/>
+	<tile x="14" y="45" bx="6" by="7"/>
+  </backgroundTiles>
+  <textures delay="3">
+    <texture name="sewers_standard.png"/>
+  </textures>
+</tileset>

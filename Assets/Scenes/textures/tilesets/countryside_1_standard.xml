@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+ <tileset>
+  <remapPoints>
+	<!-- ground -->	
+	<point x="0" y="0" width="3" height="3"/>
+	<point x="3" y="0" width="3" height="3"/>
+	<point x="6" y="0" width="3" height="3"/>
+	<point x="0" y="3" width="3" height="3"/>
+	<point x="3" y="3" width="3" height="3"/>
+	<point x="6" y="3" width="3" height="3"/>
+	<point x="0" y="6" width="3" height="3"/>
+	<point x="3" y="6" width="3" height="3"/>
+	<point x="6" y="6" width="3" height="3"/>  
+	<!-- ground left connection -->	
+	<point x="6" y="9" width="3" height="3"/>
+	<!-- ground right connection -->	
+  <point x="6" y="12" width="3" height="3"/>
+  	<!-- ground down connection -->	
+  <point x="6" y="15" width="3" height="3"/>
+	<!-- ground floor (grass) -->	
+	<point x="9" y="0" width="3" height="1"/>
+  </remapPoints>
+  <backgroundTiles>
+	<!-- grass -->
+	<tile x="9" y="0" bx="0" by="3"/>
+	<tile x="10" y="0" bx="0" by="3"/>
+	<tile x="11" y="0" bx="0" by="3"/>
+	<!-- grass borders -->	
+	<tile x="12" y="0" bx="3" by="0"/>
+	<tile x="13" y="0" bx="6" by="0"/>
+  <!-- grass left connection -->
+  <tile x="11" y="2" bx="6" by="9"/>
+  <!-- grass right connection -->
+  <tile x="11" y="2" bx="6" by="12"/>
+	<!-- ground palette -->
+	<tile x="0" y="43" bx="12" by="0"/>
+	<tile x="1" y="43" bx="9" by="0"/>
+	<tile x="2" y="43" bx="13" by="0"/>
+	<tile x="0" y="44" bx="3" by="3"/>
+	<tile x="1" y="44" bx="0" by="3"/>
+	<tile x="2" y="44" bx="6" by="3"/>
+	<tile x="0" y="45" bx="3" by="6"/>
+	<tile x="1" y="45" bx="0" by="6"/>
+	<tile x="2" y="45" bx="6" by="6"/>
+	<!-- grass left connection palette -->
+	<tile x="9 " y="43" bx="11" by="2"/>
+	<tile x="9" y="44" bx="6" by="9"/>
+	<!-- grass right connection palette -->
+	<tile x="10 " y="43" bx="11" by="2"/>
+	<tile x="10" y="44" bx="6" by="12"/>
+	<!-- grass down connection palette -->
+  <tile x="9" y="45" bx="6" by="15"/>
+  </backgroundTiles>
+  <textures delay="3">
+    <texture name="countryside_1_standard.png"/>
+  </textures>
+</tileset>
